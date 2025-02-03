@@ -149,7 +149,7 @@ const Header = ({ setaudioplay, audioplay }) => {
   return (
     <div className="relative flex justify-center items-center">
       {menutoggle && (
-        <div className="absolute min-h-screen w-full backdrop-blur-[2px]  bg-black/75 lg:hidden top-0  left-0 z-50 "></div>
+        <div className="absolute min-h-[500vh]  w-full backdrop-blur-[2px]  bg-black/75 lg:hidden top-0  left-0 z-50 "></div>
       )}
       <div
         ref={navigationref}
