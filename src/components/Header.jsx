@@ -153,7 +153,7 @@ const Header = ({ setaudioplay, audioplay }) => {
       )}
       <div
         ref={navigationref}
-        className={`fixed z-50 left-[50%] -translate-x-[50%] sm:left-[50%] sm:-translate-x-[50%]  rounded-2xl top-8 w-[90%] blk p-1.5 text-white flex items-center justify-between px-4 lg:py-3 max-lg:py-3.5 transform transition-all duration-500 ${
+        className={`fixed z-50 left-[50%] -translate-x-[50%] sm:left-[50%] sm:-translate-x-[50%]  rounded-2xl top-8 w-[90%] sm:w-[90%]  blk p-1.5 text-white flex items-center justify-between px-4 lg:py-3 max-lg:py-3.5 transform transition-all duration-500 ${
           downanimation ? " topheaddown" : " topheadup  "
         } `}
       >
