@@ -16,7 +16,7 @@ const Contact = () => {
   const [loading, setloading] = useState(false);
   const [mfc, setmfc] = useState("");
 
-  const api = "http://localhost:4800/detailpage/";
+  const api = import.meta.env.VITE_URL_BACKEND;
 
   const a = !!Name;
   console.log(Name);
@@ -173,7 +173,7 @@ const Contact = () => {
         <p
           id="tt"
           className={`z-10  ${
-            isLargeScreen ? " text-xl" : "text-4xl"
+            isLargeScreen ? " max-lg:text-xl" : "text-4xl"
           } font-popins font-semibold text-center dark:text-white`}
         >
           Let's TalK
